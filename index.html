@@ -1,1 +1,79 @@
+DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
 
+    <style>
+        /* Element Selector */
+        p {
+            color: blue;
+            font-size: 18px;
+        }
+
+        h1 {
+            color: darkgreen;
+            text-align: center;
+        }
+
+        /* ID Selector */
+        #heading {
+            background-color: lightyellow;
+            padding: 10px;
+        }
+
+        /* Class Selector */
+        .highlight {
+            color: red;
+            font-weight: bold;
+            background-color: lightpink;
+            padding: 5px;
+        }
+
+        .box {
+            border: 2px solid black;
+            padding: 15px;
+            margin: 10px;
+            background-color: lightblue;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1 id="heading">CSS Selectors Example</h1>
+
+    <h2>Element Selector</h2>
+
+    <p>This paragraph is styled using an element selector.</p>
+    <p>All paragraph elements have the same style.</p>
+
+    <h2>ID Selector</h2>
+
+    <div id="heading">
+        This section is styled using an ID selector.
+    </div>
+
+    <h2>Class Selector</h2>
+
+    <p class="highlight">
+        This paragraph uses the highlight class.
+    </p>
+
+    <p class="highlight">
+        This is another paragraph using the same class.
+    </p>
+
+    <h2>Multiple Class Elements</h2>
+
+    <div class="box">
+        This is the first box using the box class.
+    </div>
+
+    <div class="box">
+        This is the second box using the box class.
+    </div>
+
+</body>
+</html>
